@@ -1,0 +1,15 @@
+server:
+  port: 9094
+
+spring:
+  application:
+    name: "Zookeeper-ServiceDiscovery-Demo"
+  cloud:
+    zookeeper:
+      enabled: true
+      connectString: localhost:2181
+  main:
+    banner-mode: CONSOLE # LOG or OFF
+  output:
+    ansi:
+      enabled: ALWAYS
